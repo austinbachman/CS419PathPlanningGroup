@@ -22,6 +22,7 @@ Place `input` folder into `omplapp-1.x.x-Source/build/Release/bin`.
 
 ### Input data:
 Input files take the form:
+```
 <environment file name>
 <start X position>
 <start Y position>
@@ -29,6 +30,7 @@ Input files take the form:
 <goal X position>
 <goal Y position>
 <goal Z position>
+```
 
 ### Running:
 Run planning benchmark with:
@@ -44,6 +46,8 @@ To process the log file, follow instructions at: http://ompl.kavrakilab.org/benc
 Each planner being benchmarked will be run once extra and will output the solution path and metrics for that solution to the screen.
 
 Each path point takes the form:
+```
 <X position> <Y position> <Z position> <unit quaternion component 1> <component 2> <component 3> <component 4>
+```
 
 Each environment that the quadrotor will work in has been tested, with the results placed in the `output` folder. 
