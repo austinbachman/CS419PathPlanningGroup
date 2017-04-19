@@ -35,6 +35,7 @@ Input files take the form:
 ### Running:
 Run planning benchmark with:
 ```
+$ cd omplapp-1.x.x-Source/build/Release/bin
 $ ./demo_SE3QuadcopterPlanningBenchmark input/<input file name>
 ```
 
