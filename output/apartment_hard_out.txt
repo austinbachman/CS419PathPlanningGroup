@@ -1,0 +1,130 @@
+Info:    Loaded environment model with 37114 triangles.
+Info:    Robot piece with 11610 triangles loaded
+Info:    No planner specified. Using default.
+Info:    LBKPIECE1: Attempting to use default projection.
+Debug:   LBKPIECE1: Planner range detected to be 103.413399
+
+***** Planning for environment: /3D/Apartment_env.dae *****
+Info:    Configuring planners ...
+Debug:   RRTstar: Planner range detected to be 103.413399
+Info:    RRTstar: No optimization objective specified. Defaulting to optimizing path length for the allowed planning time.
+Info:    Configured geometric_RRTstar
+Debug:   RRT: Planner range detected to be 103.413399
+Info:    Configured geometric_RRT
+Info:    KPIECE1: Attempting to use default projection.
+Debug:   KPIECE1: Planner range detected to be 103.413399
+Info:    Configured geometric_KPIECE1
+Debug:   EST: Planner range detected to be 103.413399
+Info:    Configured geometric_EST
+Info:    Configured geometric_PRM
+Info:    Done configuring planners.
+Info:    Saving planner setup information ...
+Info:    Done saving information
+Info:    Beginning benchmark
+Running experiment quadrotor_uniform_sampler.
+Each planner will be executed 25 times for at most 10 seconds. Memory is limited at 10000MB.
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+
+Info:    Benchmark complete
+Info:    Results saved to 'ompl_HAL9000_2017-04-19 14:43:40.log'
+
+
+***** Planning with RRTstar *****
+
+Debug:   RRTstar: Planner range detected to be 103.413399
+Info:    RRTstar: Starting planning with 1 states already in datastructure
+Info:    RRTstar: Initial k-nearest value of 310
+Info:    RRTstar: Found an initial solution with a cost of 389.56 in 41 iterations (17 vertices in the graph)
+Info:    RRTstar: Created 859 new states. Checked 369370 rewire options. 1 goal states in tree. Final solution cost 325.691
+Info:    Solution found in 10.008530 seconds
+-31.19 -99.85 36.46 0 0 0 1 
+67.1135 -96.502 37.3668 -0.315616 -0.355378 0.807936 0.348329 
+168.254 -104.447 35.4153 0.419002 -0.618807 -0.659384 -0.082026 
+234.075 -103.287 37.2168 -0.213187 0.759689 0.609714 -0.075317 
+246.81 -48.85 36.46 0 0 0 1 
+
+
+
+***** Planning with RRT *****
+
+Debug:   RRT: Planner range detected to be 103.413399
+Info:    RRT: Starting planning with 1 states already in datastructure
+Info:    RRT: Created 76 states
+Info:    Solution found in 0.258931 seconds
+-31.19 -99.85 36.46 0 0 0 1 
+70.5259 -81.1899 36.46 0 0 0 1 
+167.884 -111.02 49.2381 -0.689118 0.150514 0.0781203 0.704528 
+195.185 -113.557 33.8365 0.00430378 -0.960487 0.27787 0.0153286 
+188.729 -125.239 29.5215 -0.823546 -0.536617 0.127713 -0.132299 
+192.956 -126.831 45.348 0.373478 -0.248845 -0.88893 0.091619 
+237.458 -133.697 58.9339 0.443322 0.66216 -0.0329504 -0.603261 
+230.401 -129.024 52.4373 -0.433125 -0.158132 0.867884 -0.184865 
+273.824 -41.9253 43.9928 0.101278 0.0800591 -0.326778 -0.936242 
+246.81 -48.85 36.46 0 0 0 1 
+
+
+
+***** Planning with KPIECE1 *****
+
+Info:    KPIECE1: Attempting to use default projection.
+Debug:   KPIECE1: Planner range detected to be 103.413399
+Info:    KPIECE1: Starting planning with 1 states already in datastructure
+Info:    KPIECE1: Created 73 states in 47 cells (1 internal + 46 external)
+Info:    Solution found in 0.221547 seconds
+-31.19 -99.85 36.46 0 0 0 1 
+-17.2273 -57.8487 74.9213 -0.684676 0.282074 0.459253 -0.490652 
+-37.1577 -79.4988 74.7844 0.00497164 -0.597424 0.51759 -0.612504 
+169.802 -57.1615 46.8531 0.00153901 -0.184937 0.160224 -0.9696 
+146.051 -9.08246 53.7086 -0.779235 0.443733 0.367072 -0.247289 
+153.917 2.01552 42.2531 0.396616 0.22922 -0.737769 0.495834 
+139.233 -12.3768 48.2026 -0.284027 0.716709 -0.228098 -0.594666 
+139.267 31.2367 14.2105 0.325727 0.711383 0.479459 -0.397437 
+143.394 42.1711 13.0636 0.264339 0.884785 0.348633 -0.160426 
+184.112 25.2845 42.5007 0.821056 0.0616374 0.464149 -0.326548 
+214.405 7.98156 26.9591 0.768352 0.0649099 -0.137675 -0.621665 
+189.123 38.4215 22.2004 0.380378 -0.631959 0.551321 -0.389854 
+227.249 12.5589 53.1038 0.721532 -0.606901 0.290863 -0.16267 
+262.063 35.101 53.5946 0.35662 -0.584288 -0.639742 0.349513 
+246.81 -48.85 36.46 0 0 0 1 
+
+
+
+***** Planning with EST *****
+
+Debug:   EST: Planner range detected to be 103.413399
+Info:    EST: Starting planning with 1 states already in datastructure
+Info:    EST: Created 217 states
+Info:    Solution found in 0.628000 seconds
+-31.19 -99.85 36.46 0 0 0 1 
+-47.5772 -55.7757 86.3478 0.595338 0.17564 0.762363 -0.183102 
+-9.93566 -101.186 76.3393 -0.127325 -0.254338 0.400664 -0.870959 
+-34.4178 -139.504 48.3184 0.880505 -0.417915 -0.110206 0.194711 
+9.66748 -110.569 14.7956 0.367111 -0.433858 -0.147445 -0.809479 
+42.8565 -140.1 17.5301 -0.522239 -0.791405 -0.21629 0.232728 
+82.3961 -120.09 39.1905 0.655462 0.69982 -0.0413399 -0.280914 
+107.174 -99.8944 14.8249 0.691021 -0.0816549 0.013525 0.71808 
+123.894 -50.5859 51.2875 -0.286248 -0.468467 0.713826 -0.434803 
+156.346 -28.3408 75.8621 -0.660072 -0.240363 -0.679427 0.211918 
+135.77 16.5521 40.5285 0.355066 -0.392662 0.313069 0.7885 
+147.135 -26.3969 32.9496 0.341687 0.558465 -0.279474 -0.702325 
+160.295 13.9273 36.8764 -0.91793 0.130294 -0.0285867 -0.373647 
+197.829 41.6598 20.8259 0.2261 -0.615586 -0.754938 -0.000911095 
+246.07 15.4817 15.2283 -0.0841133 0.2213 -0.856241 0.459133 
+245.336 -34.1395 37.0854 -0.933112 0.133892 0.282065 -0.178365 
+246.81 -48.85 36.46 0 0 0 1 
+
+
+
+***** Planning with PRM *****
+
+Info:    PRM: Starting planning with 2 states already in datastructure
+Info:    PRM: Created 658 states
+Info:    Solution found in 10.017724 seconds
+-31.19 -99.85 36.46 0 0 0 1 
+138.394 -117.279 60.2357 -0.0714824 0.882072 0.308255 0.349025 
+242.335 -125.542 60.0268 0.780481 0.155022 -0.595354 0.111229 
+246.81 -48.85 36.46 0 0 0 1 
+

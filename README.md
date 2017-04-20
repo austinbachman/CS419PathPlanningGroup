@@ -52,3 +52,5 @@ Each path point takes the form:
 ```
 
 Each environment that the quadrotor will work in has been tested, with the results placed in the `output` folder. 
+
+The relevant output files are `<env>_data.pdf` and `<env>_out.txt` files.
